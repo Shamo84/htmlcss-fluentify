@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0C325A;
+  height: 70vh;
+}
+
+.header-top {
+  width: 100%;
+  height: 12vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header-top nav {
+  width: 84%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header-top ul {
+  list-style: none;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.header-top li {
+  display: inline;
+  line-height: 112px;
+  margin: 0 10px;
+}
+
+.header-top a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.header-top li:first-child a {
+  font-size: 38px;
+  margin-right: 60px;
+}
+
+.header-bottom {
+  width: 100%;
+  height: 58vh;
+  background-image: url(../img/oldman.png);
+  background-size: auto 90%;
+  background-repeat: no-repeat;
+  background-position: 110% 107%;
+}
